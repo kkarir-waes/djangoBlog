@@ -19,21 +19,13 @@ This example uses MS Visual Studio Code , but you are free to use any IDE o fyou
 
 ### Step 2 - Setting up VSCode and Django
 
-Using the VSCode terminal carry out the following:
+Using VSCode Terminal carry out the following:
 
-2.1 Install Django.
+- `pip3 install Django~=4.2.1` Install Django.
+- `pip3 freeze local > requirements.txt` Generate a requirements.txt file.
+- `django-admin startproject codestar .` Create a new Django project.
 
-`pip3 install Django~=4.2.1`
-
-2.2 Generate a requirements.txt file.
-
-`pip3 freeze local > requirements.txt`
-
-2.3 Create a new Django project.
-
-`django-admin startproject codestar .`
-
-**note:**
+[!NOTE]
 
 - project name is _codestar_. You can use any name you wish.
 - the _. (dot)_ is important. It tells Django to add the project to the current repo.
