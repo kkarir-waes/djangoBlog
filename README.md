@@ -25,7 +25,7 @@ Using VSCode Terminal carry out the following:
 - `pip3 freeze local > requirements.txt` Generate a requirements.txt file.
 - `django-admin startproject codestar .` Create a new Django project.
 
-[!NOTE]
+> [!NOTE]
 
 - project name is _codestar_. You can use any name you wish.
 - the _. (dot)_ is important. It tells Django to add the project to the current repo.
