@@ -26,8 +26,8 @@ Using VSCode Terminal carry out the following:
 - `django-admin startproject codestar .` Create a new Django project.
 
 > [!NOTE]
-
-- project name is _codestar_. You can use any name you wish.
-- the _. (dot)_ is important. It tells Django to add the project to the current repo.
+>
+> - project name is _codestar_. You can use any name you wish.
+> - the _. (dot)_ is important. It tells Django to add the project to the current repo.
 
 ### Step 3 - Creating the Django app.
